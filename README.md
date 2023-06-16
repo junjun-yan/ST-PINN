@@ -15,7 +15,7 @@ ST-PINN introduces a pseudo label based self-learning algorithm during training.
     <img src="./pic/ST-PINN.jpg" width=80%/>
 </div>
 
-<div  align="center">    
+<div  align="left">    
     The architecture of ST-PINN. The blue line displays the training process, while the red line presents the pseudo label generating process.
 </div>
 
@@ -25,7 +25,7 @@ ST-PINN introduces a pseudo label based self-learning algorithm during training.
 1. TensorFlow == 1.15.x
 2. Numpy == 1.21.x
 
-Note that the L-BFGS-B optimizer supported by `tf.contrib` is deprecated in TF 2.X, if you want run code in TF 2.X, you can install the TensorFlow Probability (TFP) Package and follow the official tutorial [tensorflow / probability](https://github.com/tensorflow/probability), the L-BFGS-B is packaging in `tfp.optimizer.lbfgs_minimize`
+Note that the L-BFGS-B optimizer supported by `tf.contrib` is deprecated in TF 2.X, if you want run code in TF 2.X, you can install the TensorFlow Probability (TFP) Package and follow the official tutorial [tensorflow / probability](https://github.com/tensorflow/probability), the L-BFGS-B is packaging in `tfp.optimizer.lbfgs_minimize`. Our code is inspired by [maziarraissi / HFM](https://github.com/maziarraissi/HFM).
 
 
 ### Dataset
@@ -39,7 +39,7 @@ All the PDEs case studies we used in our benchmark are download from [PDEBench D
     <img src="./pic/Burgers1D.png" width=100%/>
 </div>
 
-<div  align="center">    
+<div  align="left">    
     The prediction of PINN and ST-PINN at three different times (t=0.3, t=0.6, and t=1). The blue line denotes ST-PINN, while the red line represents PINN. The gray line is the reference.
 </div>
 <br>
@@ -48,7 +48,7 @@ All the PDEs case studies we used in our benchmark are download from [PDEBench D
     <img src="./pic/Diff-React-1D.png" width=50%/>
 </div>
 
-<div  align="center">    
+<div  align="left">    
     The variation of the loss function. The red line represents the loss of PINN, while the blue line presents the loss of ST-PINN.
 </div>
 <br>
@@ -57,6 +57,6 @@ All the PDEs case studies we used in our benchmark are download from [PDEBench D
     <img src="./pic/Diff-Sorb-1D.png" width=40%/>
 </div>
 
-<div  align="center">    
+<div  align="left">    
     The reference solution, prediction, and the point-wise error of PINN and ST-PINN. The first line shows the reference solution, the second line shows the prediction of both networks, and the third line shows the pointwise error between the prediction and reference of both networks.
 </div>
