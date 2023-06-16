@@ -36,7 +36,7 @@ All the PDEs case studies we used in our benchmark are download from [PDEBench D
 ### Results
 
 <div  align="center">    
-    <img src="./pic/Burgers1D.png" width=80%/>
+    <img src="./pic/Burgers1D.png" width=100%/>
 </div>
 
 <div  align="center">    
@@ -45,7 +45,7 @@ All the PDEs case studies we used in our benchmark are download from [PDEBench D
 <br>
 
 <div  align="center">    
-    <img src="./pic/Diff-React-1D.png" width=70%/>
+    <img src="./pic/Diff-React-1D.png" width=50%/>
 </div>
 
 <div  align="center">    
@@ -54,12 +54,9 @@ All the PDEs case studies we used in our benchmark are download from [PDEBench D
 <br>
 
 <div  align="center">    
-    <img src="./pic/Diff-Sorb-1D.png" width=60%/>
+    <img src="./pic/Diff-Sorb-1D.png" width=40%/>
 </div>
 
 <div  align="center">    
     The reference solution, prediction, and the point-wise error of PINN and ST-PINN. The first line shows the reference solution, the second line shows the prediction of both networks, and the third line shows the pointwise error between the prediction and reference of both networks.
 </div>
-
-
-
