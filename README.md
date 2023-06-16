@@ -30,35 +30,35 @@ Note that the L-BFGS-B optimizer supported by `tf.contrib` is deprecated in TF 2
 
 ### Dataset
 
-All the PDEs case studies we used in our benchmark are download from [PDEBench Datasets](https://github.com/pdebench/PDEBench), and their files are publicly available on [PDEBench Datasets]([https://sparse.tamu.edu/](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)).
+All the PDEs case studies we used in our benchmark are download from [PDEBench Datasets](https://github.com/pdebench/PDEBench), and their files are publicly available on [PDEBench Datasets](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986).
 
 
 ### Results
 
 <div  align="center">    
-    <img src="./pic/performance.jpg" width=80%/>
+    <img src="./pic/Burgers1D.png" width=80%/>
 </div>
 
 <div  align="center">    
-    The overall preformance in different formats
-</div>
-<br>
-
-<div  align="center">    
-    <img src="./pic/memory_reducation.jpg" width=70%/>
-</div>
-
-<div  align="center">    
-    Memory reduction in the CSR&RV format compares to CSR
+    The prediction of PINN and ST-PINN at three different times (t=0.3, t=0.6, and t=1). The blue line denotes ST-PINN, while the red line represents PINN. The gray line is the reference.
 </div>
 <br>
 
 <div  align="center">    
-    <img src="./pic/preprocessing.jpg" width=60%/>
+    <img src="./pic/Diff-React-1D.png" width=70%/>
 </div>
 
 <div  align="center">    
-    The pre-processing overload in different formats
+    The variation of the loss function. The red line represents the loss of PINN, while the blue line presents the loss of ST-PINN.
+</div>
+<br>
+
+<div  align="center">    
+    <img src="./pic/Diff-Sorb-1D.png" width=60%/>
+</div>
+
+<div  align="center">    
+    The reference solution, prediction, and the point-wise error of PINN and ST-PINN. The first line shows the reference solution, the second line shows the prediction of both networks, and the third line shows the pointwise error between the prediction and reference of both networks.
 </div>
 
 
