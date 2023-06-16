@@ -25,7 +25,7 @@ ST-PINN introduces a pseudo label based self-learning algorithm during training.
 1. TensorFlow == 1.15.x
 2. Numpy == 1.21.x
 
-Note that the L-BFGS-B optimizer supported by tf.contrib is deprecated in TF 2.X
+Note that the L-BFGS-B optimizer supported by `tf.contrib` is deprecated in TF 2.X, if you want run code in TF 2.X, you can install the TensorFlow Probability (TFP) Package and follow the official tutorial [tensorflow / probability](https://github.com/tensorflow/probability), the L-BFGS-B is packaging in `tfp.optimizer.lbfgs_minimize`
 
 
 ### Dataset
@@ -62,22 +62,4 @@ All the PDEs case studies we used in our benchmark are download from [PDEBench D
 </div>
 
 
-### Citation
 
-If you use code or datasets in this repository for your research, please cite our paper.
-
-```
-@inproceedings{CSRRV,
-    author = {Yan, Junjun and Chen, Xinhai and Liu, Jie},
-    title = {CSR\&RV: An Efficient Value Compression Format for Sparse Matrix-Vector Multiplication},
-    year = {2022},
-    isbn = {978-3-031-21394-6},
-    publisher = {Springer-Verlag},
-    address = {Berlin, Heidelberg},
-    doi = {10.1007/978-3-031-21395-3_5},
-    booktitle = {Network and Parallel Computing: 19th IFIP WG 10.3 International Conference, NPC 2022},
-    pages = {54–60},
-    numpages = {7},
-    location = {Jinan, China}
-}
-```
