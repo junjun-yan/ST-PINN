@@ -60,3 +60,18 @@ All the PDEs case studies we used in our benchmark are download from [PDEBench D
 <div  align="left">    
     The reference solution, prediction, and the point-wise error of PINN and ST-PINN. The first line shows the reference solution, the second line shows the prediction of both networks, and the third line shows the pointwise error between the prediction and reference of both networks.
 </div>
+
+### Citation
+
+If you use code or datasets in this repository for your research, please cite our paper.
+
+```
+@misc{yan2023stpinn,
+      title={ST-PINN: A Self-Training Physics-Informed Neural Network for Partial Differential Equations}, 
+      author={Junjun Yan and Xinhai Chen and Zhichao Wang and Enqiang Zhoui and Jie Liu},
+      year={2023},
+      eprint={2306.09389},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
