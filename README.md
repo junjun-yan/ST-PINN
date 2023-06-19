@@ -1,6 +1,6 @@
 # ST-PINN
 
-An official source code for paper [ST-PINN: A Self-Training Physics-Informed Neural Network for Partial Differential Equations](), accepted by the IEEE International Joint Conference on Neural Networks, IJCNN 2023. Any communications or issues are welcomed. Please contact shuaicaijunjun@126.com. If you find this repository useful to your research or work, it is really appreciate to star this repository. :heart:
+An official source code for paper [ST-PINN: A Self-Training Physics-Informed Neural Network for Partial Differential Equations](https://arxiv.org/abs/2306.09389), accepted by the IEEE International Joint Conference on Neural Networks, IJCNN 2023. Any communications or issues are welcomed. Please contact shuaicaijunjun@126.com. If you find this repository useful to your research or work, it is really appreciate to star this repository. :heart:
 
 -------------
 
