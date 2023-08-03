@@ -1,6 +1,6 @@
 # ST-PINN
 
-An official source code for paper [ST-PINN: A Self-Training Physics-Informed Neural Network for Partial Differential Equations](https://arxiv.org/abs/2306.09389), accepted by the IEEE International Joint Conference on Neural Networks, IJCNN 2023. Any communications or issues are welcomed. Please contact shuaicaijunjun@126.com. If you find this repository useful to your research or work, it is really appreciate to star this repository. :heart:
+An official source code for paper [ST-PINN: A Self-Training Physics-Informed Neural Network for Partial Differential Equations](https://doi.org/10.1109/IJCNN54540.2023.10191472), accepted by the IEEE International Joint Conference on Neural Networks, IJCNN 2023. Any communications or issues are welcomed. Please contact shuaicaijunjun@126.com. If you find this repository useful to your research or work, it is really appreciate to star this repository. :heart:
 
 -------------
 
@@ -66,12 +66,14 @@ All the PDEs case studies we used in our benchmark are download from [PDEBench D
 If you use code or datasets in this repository for your research, please cite our paper.
 
 ```
-@misc{yan2023stpinn,
-      title={ST-PINN: A Self-Training Physics-Informed Neural Network for Partial Differential Equations}, 
-      author={Junjun Yan and Xinhai Chen and Zhichao Wang and Enqiang Zhoui and Jie Liu},
-      year={2023},
-      eprint={2306.09389},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@INPROCEEDINGS{10191472,
+  author={Yan, Junjun and Chen, Xinhai and Wang, Zhichao and Zhoui, Enqiang and Liu, Jie},
+  booktitle={2023 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={ST-PINN: A Self-Training Physics-Informed Neural Network for Partial Differential Equations}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/IJCNN54540.2023.10191472}
 }
 ```
